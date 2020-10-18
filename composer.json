@@ -1,0 +1,38 @@
+{
+    "name":"zollypie/Architect1",
+    "autoload": {
+      "psr-4": {
+        "IcyApril\\ChapterOne\\": "src/icyapril/chapterone/",
+        "ZollieProject\\Study\\": "src/zollieproject/study/"
+      }
+    },
+    "require": {
+      "guzzlehttp/guzzle": "^7.0",
+      "nette/php-generator": "^3.4.1"
+    },
+    "repositories": [
+      {
+          "type":"package",
+          "package":{
+              "name":"nette/php-generator",
+              "version":"master",
+              "source":{
+                  "url":"https://github.com/nette/php-generator",
+                  "type":"git",
+                  "reference":"master"
+              }
+          },
+
+      {  "type":"package",
+          "package":{
+              "name":"phpunit/php-timer",
+              "version":"master",
+              "source":{
+                  "url":"https://github.com/sebastianbergmann/php-timer",
+                  "type":"git",
+                  "reference":"master"
+              }
+          }
+      }
+    ]
+}
