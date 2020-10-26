@@ -22,7 +22,7 @@
                   "reference":"master"
               }
           },
-
+      }
       {  "type":"package",
           "package":{
               "name":"phpunit/php-timer",
