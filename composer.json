@@ -1,7 +1,7 @@
 {
     "name":"zollypie/architect1",
     "version": "1.0.0",
-    "description":"ohh, one design patterns test"
+    "description":"ohh, one design patterns test",
     
     "autoload": {
       "psr-4": {
