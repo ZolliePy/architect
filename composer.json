@@ -1,5 +1,5 @@
 {
-    "name":"zollypie/Architect1",
+    "name":"zollypie/architect1",
     "autoload": {
       "psr-4": {
         "IcyApril\\ChapterOne\\": "src/icyapril/chapterone/",
